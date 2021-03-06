@@ -1,0 +1,61 @@
+body{
+    /* background-color: blueviolet; */
+    margin:0;
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: #EC407A;
+}
+.contact-list-container{
+    display: flex;
+    text-align: center;
+}
+.contact-list-container ul{
+    margin-left: 34vw;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    height: 6.5vh;
+    width: 70vw;
+    /* background-color: #FFEBEE; */
+    /* display: block; */
+    /* display: inline-block; */
+    list-style: none;
+}
+.details{
+    display: flex;
+    background-color: #F48FB1;
+    height: 6vh;
+    width: 24vw;
+    /* display: inline-block; */
+    /* display: block; */
+    justify-content: space-between;
+    
+}
+.details p{
+    display: flex;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 1vh;
+}
+
+.submit-form{
+    text-align: center;
+}
+.delete-button {
+    background-color: #FFEBEE;
+    height: 6vh;
+    width: 3vw;
+}
+
+.delete-button a{
+    text-align: center;
+    height: 6vh;
+}
+.delete-icon{
+    margin-top: 2.3vh;
+    
+}
